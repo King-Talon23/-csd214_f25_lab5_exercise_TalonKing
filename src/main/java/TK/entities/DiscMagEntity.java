@@ -6,8 +6,8 @@ import java.util.Date;
 @Entity
 public class DiscMagEntity extends MagazineEntity {
 
-    @Column(nullable = false)
-    private boolean hasDisc;
+    @Column(nullable = true)
+    private boolean hasDisc = false;
 
     public DiscMagEntity() {}
 

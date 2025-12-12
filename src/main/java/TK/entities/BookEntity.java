@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class BookEntity extends PublicationEntity {
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String author;
 
     public BookEntity() {}

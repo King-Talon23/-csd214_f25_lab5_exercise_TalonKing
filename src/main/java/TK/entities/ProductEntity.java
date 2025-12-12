@@ -14,10 +14,10 @@ public abstract class ProductEntity {
     @Column(nullable = false)
     protected String title;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     protected double price;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     protected int copies;
 
     public Long getId() {

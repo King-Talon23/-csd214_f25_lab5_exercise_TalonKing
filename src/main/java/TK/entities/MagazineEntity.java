@@ -7,10 +7,10 @@ import java.util.Date;
 @Entity
 public class MagazineEntity extends PublicationEntity {
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private int orderQty;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private Date currentIssue;
 
     public MagazineEntity() {}

@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class TicketEntity extends ProductEntity {
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String description;
 
     public TicketEntity() {}
